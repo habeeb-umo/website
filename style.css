@@ -19,8 +19,8 @@ body, html{
 }
 .container-img{
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
 }
 .page-container h1{
   font-family: 'Montserrat', sans-serif;
@@ -28,9 +28,21 @@ body, html{
   font-weight: 100;
   text-shadow: 4px 4px 4px #727272;
 }
+.page-container h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align:justify;
+}
+.page-container h4{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  text-align:justify;
+}
 .page-container h5{
   font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 500;
 }
 .page-container p{
@@ -50,9 +62,16 @@ ul{
 .page-container li a{
   color: white;
   text-decoration: none;
-  font-size: 60px;
+  font-size: 40px;
   transition: all ease-in-out 250ms;
 }
 .page-container li a:hover{
+  color: #b9b9b9;
+}
+.page-container a{
+  color: white;
+  text-decoration: none;
+}
+.page-container a:hover{
   color: #b9b9b9;
 }
